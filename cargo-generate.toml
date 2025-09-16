@@ -1,7 +1,7 @@
 [template]
 cargo_generate_version = ">=0.10"
 
-[placeholders.project-name]
+[placeholders.repo-name]
 type = "string"
 prompt = "What is the name of your project?"
 regex = "^[a-z][a-z0-9_-]*$"
