@@ -1,11 +1,6 @@
 [template]
 cargo_generate_version = ">=0.10"
 
-[placeholders.repo-name]
-type = "string"
-prompt = "What is the name of your project?"
-regex = "^[a-z][a-z0-9_-]*$"
-
 [placeholders.contract-name]
 type = "string"
 prompt = "What is the name of your main contract?"

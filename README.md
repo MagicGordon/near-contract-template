@@ -53,7 +53,7 @@ make clean
 ## Project Structure
 
 ```
-{{repo-name}}/
+{{project-name}}/
 ├── contracts/
 │   ├── {{contract-name}}/          # Main contract
 │   │   ├── src/

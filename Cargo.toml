@@ -7,7 +7,7 @@ members = [
 [workspace.package]
 edition = "2021"
 publish = false
-repository = "https://github.com/{{author}}/{{repo-name}}"
+repository = "https://github.com/{{author}}/{{project-name}}"
 
 [workspace.dependencies]
 near-sdk = { version = "5.17", features = ["unstable", "unit-testing", "global-contracts"] }
