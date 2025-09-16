@@ -11,3 +11,9 @@ type = "string"
 prompt = "Author name (for GitHub URL)"
 default = "your-username"
 
+[conditional.'true']
+ignore = [
+    "README.md",
+    "cargo-generate.toml"
+]
+

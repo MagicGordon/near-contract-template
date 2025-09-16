@@ -31,25 +31,6 @@ This will prompt you for:
 - **Contract name**: Your main contract name (e.g., `study_near`)
 - **Author**: Your GitHub username (for repository URL)
 
-### Development
-
-```bash
-# Build the contract
-make build
-
-# Format and lint
-make lint
-
-# Run tests
-make test
-
-# Build release version
-make release
-
-# Clean build artifacts
-make clean
-```
-
 ## Project Structure
 
 ```
